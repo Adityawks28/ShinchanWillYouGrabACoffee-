@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: lightblue;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Affectionately\ Yours\ -\ TTF.ttf);
+}
+
+h2 {
+    font-family: myFont;
+}
+
+.proposal {
+    text-align: center;
+    font-weight : bold;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    font-size: 45px;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.yesandno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: row;
+    margin-top: 100px;
+    margin-left: 10px;
+    
+}
+
+.tombol {
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: 23px;
+    color: pink;
+    text-align : center;
+    padding: 10px 25px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    margin: 4px 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+#yes {
+    position: absolute;
+    margin-right: 150px;
+}
+
+#no {
+    position: absolute;
+    margin-left: 350px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
